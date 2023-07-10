@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Search App
 
-## Getting Started
+Version: 0.0.3
 
-First, run the development server:
+The Search App is a simple web application that allows users to search for information on the web using the Bing search engine. It provides search results along with the content of the web pages matching the search query. The app is built using Next.js, TypeScript, and React.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Installation
+
+To install the Search App, follow these steps:
+1. Make sure you have Node.js and npm installed on your machine.
+2. Clone the project repository from GitHub.
+3. Open a terminal and navigate to the project directory.
+4. Run `npm install` to install the project dependencies.
+5. Run `npm run dev` to start the development server.
+
+## Output Examples
+
+### Console Output
+
+When running the app, you will see output in the console from the `pages/api/search.ts` file. Here are examples of the output:
+
+```javascript
+console.log(resultsbing);
+// Output: [
+//   {
+//     title: "Example Title 1",
+//     description: "Example Description 1",
+//     link: "https://example.com/1"
+//   },
+//   {
+//     title: "Example Title 2",
+//     description: "Example Description 2",
+//     link: "https://example.com/2"
+//   },
+//   ...
+// ]
+
+console.log(pages);
+// Output: [
+//   {
+//     page_1: "Example page content 1"
+//   },
+//   {
+//     page_2: "Example page content 2"
+//   },
+//   ...
+// ]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+These outputs represent the search results obtained from the Bing search engine and the content of the corresponding web pages.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Web Page Output
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+When using the Search App on the web page, you will see search results displayed along with an input field for entering the search query. Here is an example of how the output appears on the web page:
 
-## Learn More
+```html
+<main class="flex min-h-screen flex-col items-center justify-between p-24">
+  <div>
+    <h1 class="text-3xl font-bold text-gray-900">
+      <span class="text-gray-900">Search</span>
+    </h1>
+    <input
+      class="mt-4 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent bg-black"
+      value="example search query"
+    />
+  </div>
 
-To learn more about Next.js, take a look at the following resources:
+  <div class="flex justify-center">
+    <button
+      class="bg-black text-white font-bold py-2 px-4 rounded-md shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-white"
+    >
+      Bing
+    </button>
+  </div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <div>
+    <pre>
+      {
+        // Here goes the search results as a JSON object
+      }
+    </pre>
+  </div>
+</main>
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This represents the main UI of the Search App, including the search input field and the Bing search button. The search results are displayed as a JSON object within the `<pre>` element.
 
-## Deploy on Vercel
+Please note that the appearance of the web page output might vary depending on the CSS styles applied to the Search App.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* This is currently a simple version of a parser for the Bing search engine, but in the future, it will also include image search, news search, shopping items, and much more!
