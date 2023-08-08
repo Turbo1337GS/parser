@@ -80,7 +80,7 @@ Results:
     "Website: 2sxc.org - Image: https://tse1.mm.bing.net/th/id/OIP.0QgVFOcgwnxQ5hXPtopLPwHaHa?w=441&h=540&c=7&r=0&o=5&pid=1.7",
     "Website: digitalfellows.commons.gc.cuny.edu - Image: https://tse2.mm.bing.net/th/id/OIP.fSJPcHZ9F_C4Sw0an778AgHaBl?w=858&h=222&c=7&r=0&o=5&pid=1.7",
     "Website: logos-world.net - Image: https://tse2.mm.bing.net/th/id/OIP.fqZ9-PPqcG_cm0k3JfoINQHaEK?w=786&h=540&c=7&r=0&o=5&pid=1.7",
-    "Website: thedigitalhacker.com - Image: https://tse3.mm.bing.net/th/id/OIP.piAMkLAjuBhL3mIPbPgROgHaDm?w=855&h=510&c=7&r=0&o=5&pid=1.7",
+    "Website: thedigitalhacker.com - Image: https://tse3This is currently a simple version of a parser for the Bing search engine, but in the future, .mm.bing.net/th/id/OIP.piAMkLAjuBhL3mIPbPgROgHaDm?w=855&h=510&c=7&r=0&o=5&pid=1.7",
     "Website: getcloudapp.com - Image: https://tse2.mm.bing.net/th/id/OIP.R2Wm7B7tg0qUgpHETTTJoAHaEN?w=981&h=558&c=7&r=0&o=5&pid=1.7"
   ],
   "news": [
@@ -158,5 +158,3 @@ This represents the main UI of the Search App, including the search input field 
 
 Please note that the appearance of the web page output might vary depending on the CSS styles applied to the Search App.
 
-
-* This is currently a simple version of a parser for the Bing search engine, but in the future, it will also include image search, news search, shopping items, and much more!
