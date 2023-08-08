@@ -1,7 +1,6 @@
 # Search App
 
 
-https://github.com/Turbo1337GS/parser/tree/main/pages/api
 
 Version: 0.0.6
 
@@ -17,7 +16,7 @@ To install the Search App, follow these steps:
 5. Run `npm run dev` to start the development server.
 6. Open `localhost:3000/Parse` 
 
-Check readme.md - pages/api/search.ts
+Check readme.md - [pages/api/search.ts](https://github.com/Turbo1337GS/parser/tree/main/pages/api)
 
 Code By Turbo ``
 Poland :)
