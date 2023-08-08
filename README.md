@@ -1,6 +1,6 @@
 # Search App
 
-Version: 0.0.3
+Version: 0.0.6
 
 The Search App is a simple web application that allows users to search for information on the web using the Bing search engine. It provides search results along with the content of the web pages matching the search query. The app is built using Next.js, TypeScript, and React.
 
@@ -12,6 +12,11 @@ To install the Search App, follow these steps:
 3. Open a terminal and navigate to the project directory.
 4. Run `npm install` to install the project dependencies.
 5. Run `npm run dev` to start the development server.
+6. Open `localhost:3000/Parse` 
+
+Code By Turbo ``
+Poland :)
+
 
 ## Output Examples
 
